@@ -25,6 +25,10 @@ public class soalan3 {
        kumpdarah = taip.next().charAt(0);
        taip.close();
        
+       System.out.println("kumpulan darah : Taip A/B/O/Z[AB] ");
+       kumpdarah = taip.next().charAt(0);
+       taip.close();
+       
        if (kumpdarah=='A'){
        } makluman="A dan AB sahaja";
        if(kumpdarah=='B'){
